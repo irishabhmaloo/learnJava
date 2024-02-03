@@ -14,6 +14,9 @@ class Computer {
 
 // method overloading (compile time)
 class Calculator {
+    
+    int num=5;
+    
     public int add(int n1, int n2) {
         return n1+n2;
     }
