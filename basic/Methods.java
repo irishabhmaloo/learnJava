@@ -1,3 +1,5 @@
+package basic;
+
 // methods
 class Computer {
 

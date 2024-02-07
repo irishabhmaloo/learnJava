@@ -1,3 +1,4 @@
+package basic;
 
 class Student {
     int rollno;

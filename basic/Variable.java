@@ -1,3 +1,5 @@
+package basic;
+
 class Variable {
     public static void main(String a[]) {
         

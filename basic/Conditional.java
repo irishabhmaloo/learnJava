@@ -1,3 +1,5 @@
+package basic;
+
 class Conditional {
     public static void main(String a[]) {
 
