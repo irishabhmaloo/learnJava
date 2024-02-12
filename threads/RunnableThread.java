@@ -26,7 +26,7 @@ class B implements Runnable {
 }
 
 public class RunnableThread {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
         Runnable o1 = new A();
         Runnable o2 = new B();
 
@@ -35,5 +35,9 @@ public class RunnableThread {
 
         t1.start();
         t2.start();
+
+        // join with main thread
+        t1.join();
+        t2.join();
     }
 }
