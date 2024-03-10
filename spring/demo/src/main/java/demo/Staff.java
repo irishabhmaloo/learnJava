@@ -1,6 +1,5 @@
 package demo;
 
 public interface Staff {
-    
-    public void work();
+    public void assist();
 }
